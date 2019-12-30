@@ -1,2 +1,0 @@
-rsyslog_1     | /bin/sh: 1: [/usr/sbin/rsyslogd: not found
-sh-trapper_1  | /bin/sh: 1: [/usr/sbin/sshd: not found
