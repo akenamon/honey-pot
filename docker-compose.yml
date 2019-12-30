@@ -1,15 +1,15 @@
 version: "2"
-services:
+services:    
     rsyslog:
         image: viniciustorino/rsyslog-dockerized:latest
-        restart: always
+        container_name: rsyslog
         volumes: 
             - /var/log
         expose:
             - "514"
-    sh-trapper:
+    ssh-trapper:
         image: viniciustorino/ssh-trapper:latest
-        restart: always 
+        container_name: ssh-trapper
         ports:
             - "22:22"
         depends_on:
