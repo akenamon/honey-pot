@@ -1,6 +1,6 @@
 # Honey pot
 
-# a container in which honey is kept
+# A container in which honey is kept
 
 This is an effort to create a fake shell, with a week password
 if somebody is trying to hack into your machine,
@@ -29,6 +29,11 @@ always use pubkey to log in.
 
 
 
+
+### --------------------------------------------------------------
+
+
+# Usage
 
 
 ~$ git clone https://github.com/akenamon/honey-pot.git
