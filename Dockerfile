@@ -11,4 +11,4 @@ RUN echo "export VISIBLE=now" >> /etc/profile
 RUN echo "service rsyslog start" >> /root/.profile                                                                                       
 RUN echo 'logger -t [DANGER] "we were HACKED"' >> /root/.profile                                                                         
 EXPOSE 22                                                                                                                    
-ENTRYPOINT ["/usr/sbin/sshd" "-D"] 
+ENTRYPOINT ["/usr/sbin/sshd", "-D"] 
