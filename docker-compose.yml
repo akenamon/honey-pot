@@ -4,7 +4,7 @@ services:
         image: viniciustorino/rsyslog-dockerized:latest
         restart: always
         volumes: 
-            - rsyslog:/var/log
+            - /var/log
         expose:
             - "514"
     sh-trapper:
