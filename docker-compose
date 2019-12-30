@@ -1,0 +1,16 @@
+version: '2'
+services:
+        rsyslog:
+                image: viniciustorino/rsyslog-dockerized
+                restart: always
+                volume: /var/log
+                expose:
+                        - 514
+
+        ssh-trapper:
+                image: viniciustorino/ssh-trapper
+                restart: always
+                ports:
+                        - "22:22"
+                depends:
+                        - rsyslog
