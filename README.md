@@ -1,13 +1,14 @@
 # ssh-trapper
 
-##  Work in progress ..... 
+We recomend cloning  directly instead of using the browser
+~$ git clone https://github.com/akenamon/ssh-trapper.git
 
+We must change  directory
+~$ cd ssh-trapper 
 
+give exec permission 
+chmod +x setup.sh 
 
-## You should use docker-compose to deploy de trap 
+run as root
+sudo ./setup.sh 
 
-sudo docker run  -dti --name ssh-trapper ssh-trapper  sudo curl -L "https://github.com/docker/compose/releases/download/1.25.0/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose && \\
-
-sudo chmod +x /usr/local/bin/docker-compose && \\
-
-sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
