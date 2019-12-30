@@ -5,13 +5,6 @@
 
 
 ## First we must install some dependencies
-apt-get -y install \
-    apt-transport-https \
-    ca-certificates \
-    curl \
-    gnupg-agent \
-    software-properties-common
-
 curl -fsSL https://get.docker.com -o get-docker.sh | sh get-docker.sh
 
 curl -L "https://github.com/docker/compose/releases/download/1.25.0/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose && \
