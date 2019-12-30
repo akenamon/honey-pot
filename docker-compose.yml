@@ -1,7 +1,9 @@
 version: "2"
 services:    
     rsyslog:
-        build: ./rsyslog-dockerized
+        build: 
+            context: ./rsyslog-dockerized
+            dockerfile: Dockerfile-rsyslog-dockerized
         container_name: rsyslog
         restart: always
         volumes: 
@@ -9,7 +11,9 @@ services:
         expose:
             - "514"
     ssh-trapper:
-        build: ./ssh-trapper
+        build: 
+            context: ./ssh-trapper
+            dockerfile: Dockerfile-ssh-trapper
         container_name: ssh-trapper
         restart: always 
         ports:
