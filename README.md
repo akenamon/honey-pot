@@ -1,8 +1,10 @@
-# ssh-trapper
+# Honey pot
 
-### We recomend cloning  directly instead of using the browser
+### a container in which honey is kept
 
-~$ git clone https://github.com/akenamon/ssh-trapper.git
+
+
+~$ git clone https://github.com/akenamon/honey-pot.git
 
 ### We must change  directory
 
