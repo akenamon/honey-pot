@@ -1,5 +1,6 @@
 # ssh-trapper
 
+## it depends on rsyslog-dockerized 
 
 cd ssh-trapper
 
