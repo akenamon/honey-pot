@@ -12,7 +12,7 @@
 
 ### We must change  directory
 
-~$ cd ssh-trapper 
+~$ cd honey-pot
 
 ### give exec permission 
 
