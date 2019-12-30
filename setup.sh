@@ -1,5 +1,9 @@
 #!/bin/bash
 
+## check uid
+[[ "`id -u`" -ne 0 ]] && echo 'please, run the setup utility as root' && exit 1
+
+
 ## First we must install some dependencies
 apt-get -y install \
     apt-transport-https \
