@@ -3,7 +3,7 @@ services:
     rsyslog:
         build: 
             context: . 
-            dockerfile: Dockerfile-rsyslog-dockerized
+            dockerfile: Dockerfile-rsyslog
         container_name: rsyslog
         restart: always
         volumes: 
