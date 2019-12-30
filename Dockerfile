@@ -1,4 +1,4 @@
-FROM ubuntu:16:04
+FROM ubuntu:16.04
 MAINTAINER vinicius.torino@protonmail.com
 RUN apt-get update && apt-get install -y openssh-server rsyslog                                                                          
 RUN mkdir/var/run/sshd                                                                                                                  
