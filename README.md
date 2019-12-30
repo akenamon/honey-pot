@@ -1,5 +1,5 @@
 # ssh-trapper
-SSH Trapper Server
+
 
 cd ssh-trapper
 
