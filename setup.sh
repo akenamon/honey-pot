@@ -11,6 +11,8 @@ curl -L "https://github.com/docker/compose/releases/download/1.25.0/docker-compo
 chmod +x /usr/local/bin/docker-compose && \
 ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
 
+#Make sure that docker is running
+systemctl start docker.service
 
 ## Time to use docker compose to start all containers
 docker-compose up -d 
