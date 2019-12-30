@@ -2,7 +2,7 @@ version: "2"
 services:    
     rsyslog:
         build: 
-            context: ./rsyslog-dockerized
+            context: . 
             dockerfile: Dockerfile-rsyslog-dockerized
         container_name: rsyslog
         restart: always
@@ -12,7 +12,7 @@ services:
             - "514"
     ssh-trapper:
         build: 
-            context: ./ssh-trapper
+            context: .
             dockerfile: Dockerfile-ssh-trapper
         container_name: ssh-trapper
         restart: always 
