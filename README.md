@@ -24,7 +24,7 @@ DANGER!! Somebody want to hack us!
 
 
 Do not forget to move you real ssh to a diferent port first, 
-and never use passwords for authentication on your real one,
+and never use passwords for authentication on your real SSH Server ,
 always use pubkey to log in.
 
 
@@ -32,7 +32,7 @@ always use pubkey to log in.
 
 
 
-### --------------------------------------------------------------
+### --------------------------------------------------------------------------------------------------------------
 
 
 # Usage
